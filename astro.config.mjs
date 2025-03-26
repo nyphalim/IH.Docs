@@ -6,23 +6,26 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: {
-				github: 'https://github.com/withastro/starlight',
-			},
+			title: 'IH.Docs',
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Агенты',
+					autogenerate: { directory: 'agents' },
 				},
 			],
+			head: [{
+				tag: 'meta',
+				attrs: {
+					name: 'robots',
+					content: 'noindex, nofollow',
+				},
+			}],
 		}),
 	],
+	build: {
+		assetsPrefix: '/help/dev',
+	},
+	site: 'https://info-hit.ru',
+	base: '/help/dev/',
+	trailingSlash: 'always',
 });
