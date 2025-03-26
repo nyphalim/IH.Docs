@@ -9,10 +9,20 @@ export default defineConfig({
 		starlight({
 			plugins: [starlightThemeRapide()],
 			title: 'IH.Docs',
+			locales: {
+				root: {
+					label: 'Русский',
+					lang: 'ru',
+				},
+			},
 			sidebar: [
 				{
 					label: 'Агенты',
 					autogenerate: { directory: 'agents' },
+				},
+				{
+					label: 'Аналитика',
+					autogenerate: { directory: 'analytics' },
 				},
 			],
 			head: [{
