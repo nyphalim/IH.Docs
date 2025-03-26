@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="IH main (help/dev)" uploadOnCheckin="74effa3e-b913-47e8-abd9-002e73c5a264" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="IH main (help/dev)">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="IH main (help/dev)" />
   </component>
 </project>
