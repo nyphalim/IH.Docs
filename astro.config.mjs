@@ -27,6 +27,14 @@ export default defineConfig({
 					label: 'Аналитика',
 					autogenerate: { directory: 'analytics' },
 				},
+				{
+					label: 'Регламенты',
+					autogenerate: { directory: 'regulations' },
+				},
+				{
+					label: 'Ссылки',
+					autogenerate: { directory: 'random' },
+				},
 			],
 			head: [{
 				tag: 'meta',
