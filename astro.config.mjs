@@ -9,6 +9,9 @@ export default defineConfig({
 		starlight({
 			plugins: [starlightThemeRapide()],
 			title: 'IH.Docs',
+			editLink: {
+				baseUrl: 'https://github.com/nyphalim/IH.Docs/edit/master/',
+			},
 			locales: {
 				root: {
 					label: 'Русский',
