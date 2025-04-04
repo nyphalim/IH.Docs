@@ -8,7 +8,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			plugins: [starlightThemeRapide()],
-			title: 'IH.Docs',
+			title: 'ИнфоХит.Docs',
 			editLink: {
 				baseUrl: 'https://github.com/nyphalim/IH.Docs/edit/master/',
 			},
@@ -22,6 +22,10 @@ export default defineConfig({
 				{
 					label: 'Агенты',
 					autogenerate: { directory: 'agents' },
+				},
+				{
+					label: 'Процессы',
+					autogenerate: { directory: 'processes' },
 				},
 				{
 					label: 'Аналитика',
