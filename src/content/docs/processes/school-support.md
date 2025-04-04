@@ -18,4 +18,4 @@ https://info-hit.bitrix24.ru/crm/deal/kanban/category/32/
 
 ## Как поменять ответственного для техподдержки авторов/школ
 1. Меняем ответственного в настройках открытой линии<br>https://info-hit.bitrix24.ru/contact_center/connector/?ID=livechat&LINE=24&action-line=create — Нажать "настроить"
-2. Меняем отстветсенного в настроках почты<br>https://info-hit.bitrix24.ru/mail/config/edit?id=86#configcrm
+2. Меняем ответственного в настроках почты<br>https://info-hit.bitrix24.ru/mail/config/edit?id=86#configcrm
