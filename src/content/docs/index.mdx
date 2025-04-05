@@ -1,6 +1,6 @@
 ---
 title: Документация ИнфоХит
-description: Get started building your docs site with Starlight.
+description: В этом разделе собрана документация для сотрудников компании ИнфоХит.
 template: splash
 hero:
   tagline: Инструкции, описание классов и методов, регламенты
@@ -10,23 +10,29 @@ hero:
     - text: Смотреть документацию
       link: agents/
       icon: right-arrow
+    - text: Репа на GitHub
+      link: https://github.com/nyphalim/IH.Docs
+      icon: external
+      variant: minimal
+      attrs:
+        target: _blank
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Как редактировать и добавлять контент
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Получите доступ" icon="pencil">
+		Чтобы `редактировать и добавлять` контент запросите доступ у администратора https://t.me/nyphalim
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Настройте среду разработки" icon="add-document">
+		Разверните на своей машине git-репозиторий, использую IDE (Например VSCode).
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Сконфигурируйте подключение к серверу" icon="setting">
+		Настройте в IDE подключение к production-серверу, установите настройки Mappings для синхронизации только нужных папок.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Ознакомьтесь с документацией" icon="open-book">
+		Читайте документацию шаблона [Starlight](https://starlight.astro.build/).
 	</Card>
 </CardGrid>
